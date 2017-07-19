@@ -1,0 +1,22 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'Poke Map' do
+  use_frameworks!
+
+  # Pods for Poke Map
+pod 'Parse'
+pod 'SVProgressHUD'
+pod 'SCLAlertView’
+
+  target 'Poke MapTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Poke MapUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
